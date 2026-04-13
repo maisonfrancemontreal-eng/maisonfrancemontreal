@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-04-15",
+    "title": "Lancement de campagne",
+    "location": "4897 Blvd. Saint-Laurent, Montréal",
+    "description": "Élections consulaires : on t’explique tout. Rendez-vous le 15 avril de 18h à 21h pour le lancement de campagne de la liste Maison France–Montréal.",
+    "image": "assets/images/lancement-campagne.jpeg",
+    "imageAlt": "Affiche du lancement de campagne Maison France–Montréal"
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Rencontre thématique — Installation & immigration",
+    "location": "Maison France–Montréal",
+    "description": "Discussion ouverte sur les démarches d’installation, les parcours d’immigration et les besoins d’information concrète."
+  }
+]

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison France–Montréal</title>
+  <meta name="description" content="Site de campagne de la liste MAISON FRANCE–MONTRÉAL" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#accueil" class="brand">MAISON FRANCE–MONTRÉAL</a>
+      <nav>
+        <a href="#programme">Programme</a>
+        <a href="#candidats">Candidats</a>
+        <a href="#actualites">Actualités</a>
+        <a href="#reseaux">Réseaux</a>
+      </nav>
+      <button id="menuButton" class="menu-button" aria-label="Ouvrir le menu">☰</button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="#programme">Programme</a>
+      <a href="#candidats">Candidats</a>
+      <a href="#actualites">Actualités</a>
+      <a href="#reseaux">Réseaux</a>
+    </div>
+  </header>
+
+  <main id="accueil">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Liste indépendante, transpartisane, locale et solidaire</p>
+          <h1 id="siteTitle">MAISON FRANCE–MONTRÉAL</h1>
+          <p id="siteTagline" class="tagline"></p>
+          <p id="heroText" class="hero-text"></p>
+          <div class="hero-actions">
+            <a href="#programme" class="btn btn-primary" id="ctaPrimary"></a>
+            <a href="#candidats" class="btn btn-secondary" id="ctaSecondary"></a>
+          </div>
+        </div>
+        <div class="hero-poster-card">
+          <img src="assets/images/affiche.jpg" alt="Affiche de campagne Maison France–Montréal" class="poster" />
+        </div>
+      </div>
+    </section>
+
+
+    <section id="evenement-vedette" class="featured-event-section">
+      <div class="container">
+        <div id="featuredEvent"></div>
+      </div>
+    </section>
+
+    <section class="info-strip">
+      <div class="container info-grid">
+        <div>
+          <h2>Un projet rassembleur sous un même toit</h2>
+          <p>Informer, accompagner, rassembler et faire vivre une présence française forte, utile et pleinement inscrite à Montréal.</p>
+        </div>
+        <img src="assets/images/info.jpg" alt="Visuel d'information Maison France–Montréal" class="info-image" />
+      </div>
+    </section>
+
+    <section id="programme" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Nos priorités</p>
+          <h2>Le programme</h2>
+          <p>Cinq axes pour une communauté mieux accompagnée, plus solidaire et pleinement ancrée à Montréal.</p>
+        </div>
+        <div id="programGrid" class="program-grid"></div>
+      </div>
+    </section>
+
+    <section id="candidats" class="section alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">L’équipe</p>
+          <h2>Les 18 candidates et candidats</h2>
+          <p>Des profils complémentaires, enracinés à Montréal et engagés au service de la communauté.</p>
+        </div>
+
+        <div class="candidate-toolbar">
+          <input type="search" id="candidateSearch" placeholder="Rechercher un nom…" aria-label="Rechercher un candidat" />
+        </div>
+
+        <div id="candidateGrid" class="candidate-grid"></div>
+      </div>
+    </section>
+
+    <section id="actualites" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Vie de campagne</p>
+          <h2>Actualités & événements</h2>
+          <p>Cette section est facile à mettre à jour dans le fichier <code>data/events.json</code>.</p>
+        </div>
+        <div id="eventsGrid" class="events-grid"></div>
+      </div>
+    </section>
+
+    <section id="reseaux" class="section alt">
+      <div class="container social-wrap">
+        <div class="section-heading left">
+          <p class="eyebrow">Nous suivre</p>
+          <h2>Réseaux sociaux</h2>
+          <p>Ajoute ou modifie les liens dans <code>data/site.json</code>.</p>
+        </div>
+        <div id="socialLinks" class="social-links"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Maison France–Montréal</strong>
+        <p>Liste indépendante, transpartisane, locale et solidaire.</p>
+      </div>
+      <a href="#accueil" class="back-top">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <template id="programCardTemplate">
+    <article class="program-card">
+      <div class="program-index"></div>
+      <h3></h3>
+      <p class="program-subtitle"></p>
+      <ul></ul>
+    </article>
+  </template>
+
+  <template id="candidateCardTemplate">
+    <article class="candidate-card">
+      <div class="candidate-visual">
+        <div class="strobo-frame">
+          <img class="candidate-photo base-photo" alt="" />
+          <img class="candidate-photo ghost-photo ghost-one" alt="" />
+          <img class="candidate-photo ghost-photo ghost-two" alt="" />
+        </div>
+      </div>
+      <div class="candidate-body">
+        <h3 class="candidate-name"></h3>
+        <div class="candidate-sections"></div>
+      </div>
+    </article>
+  </template>
+
+  <template id="featuredEventTemplate">
+    <article class="featured-event-card">
+      <div class="featured-event-media-wrap">
+        <img class="featured-event-image" alt="" />
+        <div class="featured-event-badge">Événement vedette</div>
+      </div>
+      <div class="featured-event-content">
+        <p class="eyebrow">À ne pas manquer</p>
+        <div class="featured-event-date"></div>
+        <h2 class="featured-event-title"></h2>
+        <p class="featured-event-location"></p>
+        <p class="featured-event-description"></p>
+        <div class="featured-event-actions">
+          <a href="#actualites" class="btn btn-primary">Voir tous les événements</a>
+          <a href="#reseaux" class="btn btn-secondary">Nous suivre</a>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <template id="eventCardTemplate">
+    <article class="event-card">
+      <img class="event-image" alt="" />
+      <div class="event-content">
+        <div class="event-date"></div>
+        <h3></h3>
+        <p class="event-location"></p>
+        <p class="event-description"></p>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
