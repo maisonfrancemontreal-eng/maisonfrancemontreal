@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "name": "Yan Niesing",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-01.jpg",
+    "photoStrobo": "assets/candidates/cand-01-strobo.jpg",
+    "sections": {
+      "identite": "Installé à Montréal avec sa famille, Yan Niesing connaît de près les réalités de l’expatriation, de l’installation et de la scolarité des enfants au Québec.",
+      "parcours": "Professionnel du management et des opérations depuis plus de vingt ans, il a dirigé des équipes importantes dans la logistique et les environnements complexes.",
+      "engagements": "Son parcours l’a amené à structurer des projets collectifs et à chercher des solutions concrètes pour répondre aux besoins du terrain.",
+      "motivation": "Il veut mettre son sens de l’organisation et son expérience au service des Français de Montréal avec une approche utile, accessible et orientée résultats.",
+      "valeurs": "Pragmatisme, sens du collectif, écoute et engagement concret."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Mélanie Boude",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-02.jpg",
+    "photoStrobo": "assets/candidates/cand-02-strobo.jpg",
+    "sections": {
+      "identite": "Française installée à Montréal, Mélanie Boude évolue au croisement des relations économiques entre la France et l’Amérique du Nord.",
+      "parcours": "Conseillère senior en développement international, elle accompagne de grands groupes français dans leur implantation et leur croissance en Amérique du Nord, notamment via le programme V.I.E.",
+      "engagements": "Active dans le tissu associatif français à Montréal, elle cherche à renforcer les passerelles entre institutions, entreprises et communauté locale.",
+      "motivation": "Elle souhaite faciliter l’intégration, l’emploi et l’accès à l’information pour les Français établis au Québec.",
+      "valeurs": "Ouverture, efficacité, ancrage local et esprit de service."
+    }
+  },
+  {
+    "id": 3,
+    "name": "Camille Crépieux",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-03.jpg",
+    "photoStrobo": "assets/candidates/cand-03-strobo.jpg",
+    "sections": {
+      "identite": "Arrivé au Québec en 2021 et installé à Montréal depuis 2024, Camille Crépieux représente une nouvelle génération engagée dans la vie publique et communautaire.",
+      "parcours": "Formé en sciences fondamentales, il occupe des fonctions de coordination auprès du Comité consultatif Jeunes de la CPMT et du ministère de l’Emploi et de la Solidarité sociale du Québec.",
+      "engagements": "Il s’est investi dans des associations étudiantes, des organismes communautaires et des instances dédiées à l’équité, la diversité et l’inclusion.",
+      "motivation": "Il veut représenter les Français de Montréal avec une attention particulière portée à la jeunesse, à l’accompagnement et à la participation citoyenne.",
+      "valeurs": "Écoute, représentation, travail collectif et sens des responsabilités."
+    }
+  },
+  {
+    "id": 4,
+    "name": "Florence Bollet Michel",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-04.jpg",
+    "photoStrobo": "assets/candidates/cand-04-strobo.jpg",
+    "sections": {
+      "identite": "Travailleuse sociale, mère de famille et installée à Montréal depuis 2023, Florence Bollet Michel met l’humain au cœur de son engagement.",
+      "parcours": "Assistante de service social de formation, elle accompagne aujourd’hui des aînés en CLSC et défend leurs droits au quotidien.",
+      "engagements": "Son expérience familiale et professionnelle nourrit une compréhension concrète des besoins des familles, des personnes vulnérables et des nouveaux arrivants.",
+      "motivation": "Elle souhaite porter une voix attentive aux solidarités, à l’accès aux droits et à l’accompagnement des Français de Montréal.",
+      "valeurs": "Bienveillance, justice sociale, écoute et engagement de terrain."
+    }
+  },
+  {
+    "id": 5,
+    "name": "Sylvain Lumbroso",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-05.jpg",
+    "photoStrobo": "assets/candidates/cand-05-strobo.jpg",
+    "sections": {
+      "identite": "Entrepreneur français installé à Montréal depuis 2013, Sylvain Lumbroso évolue entre éducation, innovation et médias.",
+      "parcours": "Fondateur d’Edoki Academy puis dirigeant de Bayard au Canada, il a développé des projets numériques à portée internationale.",
+      "engagements": "Son expérience l’a conduit à soutenir l’entrepreneuriat, l’éducation et le rayonnement de Montréal comme carrefour francophone.",
+      "motivation": "Il veut mettre son expérience de bâtisseur et de dirigeant au service d’initiatives utiles à la communauté française.",
+      "valeurs": "Innovation, transmission, ambition collective et sens du concret."
+    }
+  },
+  {
+    "id": 6,
+    "name": "Ameline Serre",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-06.jpg",
+    "photoStrobo": "assets/candidates/cand-06-strobo.jpg",
+    "sections": {
+      "identite": "Juriste de formation arrivée à Montréal en 2023, Ameline Serre a choisi de poursuivre son parcours dans les affaires publiques et la vie associative.",
+      "parcours": "Après des études de droit international, elle a travaillé en communication et gestion de projets avant de rejoindre le Regroupement des jeunes chambres de commerce du Québec.",
+      "engagements": "Elle agit au contact des membres, des réseaux professionnels et des événements qui structurent la relève économique et citoyenne.",
+      "motivation": "Elle souhaite mieux informer, rassembler et défendre les Français installés à Montréal, en particulier les jeunes actifs et nouveaux arrivants.",
+      "valeurs": "Dynamisme, clarté, engagement et sens du lien."
+    }
+  },
+  {
+    "id": 7,
+    "name": "Morgan Buchoux",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-07.jpg",
+    "photoStrobo": "assets/candidates/cand-07-strobo.jpg",
+    "sections": {
+      "identite": "Franco-canadien installé à Montréal, Morgan Buchoux évolue depuis plus de quinze ans entre commerce, événementiel, culture et gestion de projets.",
+      "parcours": "Il a occupé des responsabilités en ventes, développement commercial et coordination d’équipes avant de diriger l’organisme culturel Aussenwelt.",
+      "engagements": "Très investi dans le milieu culturel, il conçoit des projets collectifs qui créent du lien entre artistes, publics et communauté locale.",
+      "motivation": "Il veut contribuer à une représentation ouverte, créative et concrète des Français de Montréal.",
+      "valeurs": "Énergie, créativité, proximité et sens de l’initiative."
+    }
+  },
+  {
+    "id": 8,
+    "name": "Camille Pillot",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-08.jpg",
+    "photoStrobo": "assets/candidates/cand-08-strobo.jpg",
+    "sections": {
+      "identite": "Ingénieure et doctorante à Polytechnique Montréal, Camille Pillot incarne une relève scientifique engagée dans la vie associative.",
+      "parcours": "Ses recherches en génie biomédical portent sur la simulation numérique de la chirurgie de la scoliose et mobilisent un fort sens de la pédagogie et du dialogue interdisciplinaire.",
+      "engagements": "En parallèle de ses études, elle s’investit dans la représentation étudiante et dans des projets qui facilitent la vie collective.",
+      "motivation": "Elle souhaite apporter une voix rigoureuse, accessible et tournée vers les besoins concrets des Français de Montréal.",
+      "valeurs": "Rigueur, pédagogie, engagement et esprit d’équipe."
+    }
+  },
+  {
+    "id": 9,
+    "name": "Gabriel Viry",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-09.jpg",
+    "photoStrobo": "assets/candidates/cand-09-strobo.jpg",
+    "sections": {
+      "identite": "Diplômé en communication politique et sociale, Gabriel Viry partage son temps entre entrepreneuriat créatif et vie culturelle montréalaise.",
+      "parcours": "Co-fondateur de KIBLIND, il développe un média, une agence et des projets éditoriaux entre la France, Montréal, Paris et Lyon.",
+      "engagements": "Il contribue activement au dynamisme culturel et aux liens entre création contemporaine, rayonnement francophone et vie locale.",
+      "motivation": "Il veut mettre la culture, la communication et les réseaux créatifs au service d’une communauté française ouverte sur Montréal.",
+      "valeurs": "Créativité, curiosité, engagement collectif et esprit d’ouverture."
+    }
+  },
+  {
+    "id": 10,
+    "name": "Emilie Briere",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-10.jpg",
+    "photoStrobo": "assets/candidates/cand-10-strobo.jpg",
+    "sections": {
+      "identite": "Franco-canadienne établie à Montréal, Émilie Brière a construit un parcours entre université, institutions publiques et vie municipale.",
+      "parcours": "Après quinze ans au croisement de la recherche, des gouvernements et des relations institutionnelles, elle est aujourd’hui conseillère de la Ville de Montréal et vice-présidente du conseil municipal.",
+      "engagements": "Son expérience personnelle d’expatriation et son engagement public nourrissent une compréhension fine des enjeux d’intégration, d’enseignement supérieur et de rayonnement international.",
+      "motivation": "Elle souhaite renforcer les liens entre la communauté française et les institutions montréalaises, avec une approche de service et d’influence utile.",
+      "valeurs": "Dialogue, engagement civique, ancrage local et sens de l’intérêt général."
+    }
+  },
+  {
+    "id": 11,
+    "name": "Saber Rebai",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-11.jpg",
+    "photoStrobo": "assets/candidates/cand-11-strobo.jpg",
+    "sections": {
+      "identite": "Installé à Montréal avec sa famille, Saber Rebai connaît les défis très concrets liés à l’expatriation et à l’installation au Québec.",
+      "parcours": "Directeur régional, il a plus de vingt ans d’expérience en management, opérations et pilotage d’équipes importantes.",
+      "engagements": "Son parcours lui a donné une solide capacité à organiser, décider et structurer des actions collectives dans des environnements exigeants.",
+      "motivation": "Il souhaite mettre son expérience professionnelle et humaine au service des Français de Montréal de manière simple, utile et efficace.",
+      "valeurs": "Organisation, écoute, pragmatisme et sens du collectif."
+    }
+  },
+  {
+    "id": 12,
+    "name": "Sabine Monpierre",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-12.jpg",
+    "photoStrobo": "assets/candidates/cand-12-strobo.jpg",
+    "sections": {
+      "identite": "Originaire de la Guadeloupe et installée au Québec depuis 18 ans, Sabine Monpierre est engagée de longue date dans les enjeux d’égalité et de droits de la personne.",
+      "parcours": "Conseillère en éducation et en promotion des droits à la Commission des droits, elle œuvre à rendre les enjeux sociaux plus lisibles et plus justes.",
+      "engagements": "Vice-présidente du Conseil interculturel de Montréal, membre d’instances communautaires et lauréate du prix Pour un Québec sans racisme 2023, elle agit sur l’inclusion, le dialogue et la lutte contre les discriminations.",
+      "motivation": "Elle veut mettre son expérience au service d’une représentation attentive à la dignité, à l’accès aux droits et à la cohésion de la communauté française.",
+      "valeurs": "Inclusion, justice, dialogue et solidarité."
+    }
+  },
+  {
+    "id": 13,
+    "name": "Leo Trespeuch",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-13.jpg",
+    "photoStrobo": "assets/candidates/cand-13-strobo.jpg",
+    "sections": {
+      "identite": "Ancien sportif de haut niveau devenu professeur d’université, Léo Trespeuch suit un parcours à la fois international, académique et entrepreneurial.",
+      "parcours": "Titulaire d’un doctorat en sciences de gestion, il enseigne le marketing stratégique et numérique au Canada et participe à plusieurs projets de recherche internationaux.",
+      "engagements": "Co-fondateur de l’Observatoire de la philanthropie, il reste aussi impliqué dans le sport, la jeunesse et les initiatives à impact sociétal.",
+      "motivation": "Il souhaite contribuer à une représentation utile, exigeante et tournée vers l’innovation, la jeunesse et le rayonnement collectif.",
+      "valeurs": "Discipline, transmission, excellence et engagement."
+    }
+  },
+  {
+    "id": 14,
+    "name": "Louise Mazauric",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-14.jpg",
+    "photoStrobo": "assets/candidates/cand-14-strobo.jpg",
+    "sections": {
+      "identite": "Architecte franco-canadienne installée au Québec depuis 2014, Louise Mazauric porte un parcours international ancré à Montréal.",
+      "parcours": "Diplômée d’une double maîtrise en architecture, elle travaille sur des projets fédéraux au Canada avec une attention forte à la durabilité et à l’accessibilité.",
+      "engagements": "Elle s’implique dans son secteur pour promouvoir l’innovation, la diversité et la relève, tout en intervenant dans des milieux universitaires et professionnels.",
+      "motivation": "Elle veut soutenir le rayonnement des Français de l’étranger et contribuer à des projets qui renforcent la présence culturelle et communautaire française à Montréal.",
+      "valeurs": "Durabilité, transmission, ouverture et ambition collective."
+    }
+  },
+  {
+    "id": 15,
+    "name": "Nicolas Bel",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-15.jpg",
+    "photoStrobo": "assets/candidates/cand-15-strobo.jpg",
+    "sections": {
+      "identite": "Installé à Montréal depuis 18 ans, Nicolas Bel connaît très bien les réalités de la communauté française au Québec.",
+      "parcours": "Courtier immobilier résidentiel et commercial depuis plus de 13 ans, il accompagne au quotidien des particuliers, entrepreneurs et nouveaux arrivants.",
+      "engagements": "Engagé depuis 2018 au sein de l’Union Française de Montréal, il en a été administrateur, responsable de la bâtisse, président puis trésorier.",
+      "motivation": "Il souhaite poursuivre un engagement concret sur le logement, l’intégration et la structuration d’un lieu utile pour la communauté.",
+      "valeurs": "Fiabilité, proximité, esprit de service et sens des responsabilités."
+    }
+  },
+  {
+    "id": 16,
+    "name": "Charlotte Voute",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-16.jpg",
+    "photoStrobo": "assets/candidates/cand-16-strobo.jpg",
+    "sections": {
+      "identite": "Française puis franco-canadienne de cœur, Charlotte Voute vit à Montréal depuis 2018 avec sa famille.",
+      "parcours": "Gestionnaire RH et adjointe de direction à L’INIS, elle a auparavant travaillé en développement de partenariats, financement associatif et gestion administrative.",
+      "engagements": "Son parcours mêle soutien au milieu culturel, engagement pour la santé des femmes et participation à la vie collective montréalaise.",
+      "motivation": "Elle veut représenter une communauté attentive aux familles, au lien social et à l’intégration des Français à Montréal.",
+      "valeurs": "Humanité, engagement, organisation et convivialité."
+    }
+  },
+  {
+    "id": 17,
+    "name": "Alaric Bourgoin",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-17.jpg",
+    "photoStrobo": "assets/candidates/cand-17-strobo.jpg",
+    "sections": {
+      "identite": "Installé à Montréal, Alaric Bourgoin est enseignant-chercheur, entrepreneur et élu engagé dans la vie communautaire française.",
+      "parcours": "Professeur à HEC Montréal, ancien consultant en stratégie et chercheur à Harvard, il dirige aujourd’hui un centre de recherche consacré aux dirigeants d’entreprise.",
+      "engagements": "Bénévole puis vice-président de l’Union Française et conseiller des Français de l’étranger depuis 2022, il a contribué activement au projet Maison France de Montréal.",
+      "motivation": "Il souhaite accompagner une nouvelle génération et poursuivre un projet structurant, fédérateur et durable pour la communauté.",
+      "valeurs": "Exigence, transmission, engagement et vision collective."
+    }
+  },
+  {
+    "id": 18,
+    "name": "Anne-Caroline Lancien",
+    "role": "Candidate",
+    "photo": "assets/candidates/cand-18.jpg",
+    "photoStrobo": "assets/candidates/cand-18-strobo.jpg",
+    "sections": {
+      "identite": "Franco-canadienne installée au Québec depuis 2011, Anne-Caroline Lancien a construit sa vie familiale et professionnelle entre plusieurs pays francophones.",
+      "parcours": "Consultante en transformation numérique, gestionnaire de produits et analyste d’affaires, elle accompagne les organisations dans la conception de solutions utiles et durables.",
+      "engagements": "Son parcours d’intégration au Québec et son passage par l’enseignement du français nourrissent une attention concrète aux enjeux d’installation, d’adaptation et d’accompagnement.",
+      "motivation": "Elle souhaite mettre son expérience du changement, de la pédagogie et de la gestion de projet au service des Français de Montréal.",
+      "valeurs": "Clarté, pragmatisme, adaptabilité et bienveillance."
+    }
+  }
+]

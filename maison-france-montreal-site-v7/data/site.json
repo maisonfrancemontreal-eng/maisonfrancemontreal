@@ -1,0 +1,26 @@
+{
+  "siteTitle": "MAISON FRANCE–MONTRÉAL",
+  "siteTagline": "Liste indépendante, transpartisane, locale et solidaire sous un toit rassembleur pour s’entraider et agir.",
+  "heroText": "Une campagne ancrée à Montréal, tournée vers l’entraide, l’information utile et le rayonnement de la communauté française.",
+  "ctaPrimary": "Découvrir le programme",
+  "ctaSecondary": "Rencontrer les candidates et candidats",
+  "socials": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/listemaisonfrance.asfe"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/yan.niesing"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/company/liste-maison-france-montr%C3%A9al/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:maisonfrance.montreal@gmail.com"
+    }
+  ],
+  "editableNote": "Tu peux modifier facilement les liens sociaux et les textes dans /data/site.json, les événements dans /data/events.json, et les bios dans /data/candidates.json."
+}
