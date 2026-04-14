@@ -11,7 +11,7 @@
     },
     {
       "label": "Facebook",
-      "url": "https://www.facebook.com/yan.niesing.2025"
+      "url": "https://www.facebook.com/yan.niesing"
     },
     {
       "label": "LinkedIn",
@@ -21,5 +21,6 @@
       "label": "Email",
       "url": "mailto:maisonfrance.montreal@gmail.com"
     }
-  ]
+  ],
+  "editableNote": "Tu peux modifier facilement les liens sociaux et les textes dans /data/site.json, les événements dans /data/events.json, et les bios dans /data/candidates.json."
 }

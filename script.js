@@ -12,19 +12,34 @@ function formatDateFR(dateString) {
 
 function renderProgram(items) {
   const grid = document.getElementById('programGrid');
-  const tpl = document.getElementById('programCardTemplate');
-  items.forEach((item, index) => {
-    const node = tpl.content.cloneNode(true);
-    node.querySelector('.program-index').textContent = index + 1;
-    node.querySelector('h3').textContent = item.title;
-    node.querySelector('.program-subtitle').textContent = item.subtitle;
-    const ul = node.querySelector('ul');
-    item.bullets.forEach(b => {
-      const li = document.createElement('li');
-      li.textContent = b;
-      ul.appendChild(li);
-    });
-    grid.appendChild(node);
+  if (!grid) return;
+
+  const slides = [
+    { src: 'assets/program/programme-1.png', title: 'Couverture du programme électoral 2026' },
+    { src: 'assets/program/programme-2.png', title: 'Priorité 1 · Maison France–Montréal' },
+    { src: 'assets/program/programme-3.png', title: 'Priorité 2 · Faciliter l’installation et les parcours d’immigration' },
+    { src: 'assets/program/programme-4.png', title: 'Priorité 3 · Soutenir les familles, l’éducation et l’accès aux bourses' },
+    { src: 'assets/program/programme-5.png', title: 'Priorité 4 · Santé, protection sociale et droits' },
+    { src: 'assets/program/programme-6.png', title: 'Priorité 5 · Logement et coût de la vie' },
+    { src: 'assets/program/programme-7.png', title: 'Objectif de la liste Maison France–Montréal' },
+  ];
+
+  grid.innerHTML = '';
+  slides.forEach((slide, index) => {
+    const card = document.createElement('article');
+    card.className = index === 0 ? 'program-poster program-poster--featured' : 'program-poster';
+
+    const img = document.createElement('img');
+    img.src = slide.src;
+    img.alt = slide.title;
+    img.loading = index < 2 ? 'eager' : 'lazy';
+
+    const meta = document.createElement('div');
+    meta.className = 'program-poster-meta';
+    meta.innerHTML = `<span class="program-chip">${index + 1}/7</span><h3>${slide.title}</h3>`;
+
+    card.append(img, meta);
+    grid.appendChild(card);
   });
 }
 
